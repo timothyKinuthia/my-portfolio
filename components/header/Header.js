@@ -26,21 +26,21 @@ const Header = ({dimension}) => {
             </Link>
           </li>
 
-          <li className={dimension < 760 && "px-4 hover:bg-bluegray-700 py-2"}>
+          <li className={dimension < 760 && "px-4 hover:bg-bluegray-700 py-2 text-xl"}>
             <Link href="#projects">
               <a className="hover:text-truegray-400 text-xl">Projects</a>
             </Link>
           </li>
 
-          <li className={dimension < 760 && "px-4 hover:bg-bluegray-700 py-2"}>
+          <li className={dimension < 760 && "px-4 hover:bg-bluegray-700 py-2 text-xl"}>
             <Link href="#tech">
-              <a className="hover:text-truegray-400">Technologies</a>
+              <a className="hover:text-truegray-400 text-xl">Technologies</a>
             </Link>
           </li>
 
-          <li className={dimension < 760 && "px-4 hover:bg-bluegray-700 py-2"}>
+          <li className={dimension < 760 && "px-4 hover:bg-bluegray-700 py-2 text-xl"}>
             <Link href="#about">
-              <a className="hover:text-truegray-400">About</a>
+              <a className="hover:text-truegray-400 text-xl">About</a>
             </Link>
           </li>
         </ul>
