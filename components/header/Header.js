@@ -7,11 +7,10 @@ const Header = ({dimension}) => {
 
   return (
     <div
-      className={
-        dimension < 760 ? "flex flex-col" : "flex justify-around items-center"
-      }
+      className="lg:flex justify-around items-center"
+      
     >
-      <nav className="md:mt-4 w-full md:w-2/3 ">
+      <nav className="lg:mt-4 w-full md:w-2/3 ">
         <ul
           className={
             dimension < 760
@@ -21,15 +20,15 @@ const Header = ({dimension}) => {
         >
           <li className="pl-4 md:pl-0 ">
             <Link href="/">
-              <a className="text-gray-300">
-                <span className="ml-2 font-bold">Portfolio</span>
+              <a className="text-gray-300 block text-center">
+                <span className="ml-2 text-2xl font-bold ">Portfolio</span>
               </a>
             </Link>
           </li>
 
           <li className={dimension < 760 && "px-4 hover:bg-bluegray-700 py-2"}>
             <Link href="#projects">
-              <a className="hover:text-truegray-400">Projects</a>
+              <a className="hover:text-truegray-400 text-xl">Projects</a>
             </Link>
           </li>
 
