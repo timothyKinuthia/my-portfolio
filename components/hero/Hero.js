@@ -3,7 +3,7 @@ import Link from "next/link"
 const Hero = (props) => (
   <div className="mt-8 w-full flex">
     <div className="space-y-10 w-full px-2 lg:p-0 lg:flex justify-center items-center">
-      <div className="lg:ml-8 xl:-ml-24">
+      <div className="lg:ml-8 xl:-ml-24 mb-9 lg:mb-0">
         <h3
           style={{ color: "transparent" }}
           className="text-5xl font-bold bg-clip-text bg-gradient-to-r from-teal-600 via-teal-200 to-truegray-400"
