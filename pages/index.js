@@ -9,7 +9,7 @@ import Footer from "../components/footer/Footer";
 
 export default function Home() {
 
-  const [dimension, setDimension] = useState("");
+  const [dimension, setDimension] = useState(1400);
 
   useEffect(() => {
     const listener = () => {
