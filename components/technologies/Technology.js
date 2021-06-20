@@ -1,4 +1,4 @@
-const frontend = ["HTML", "CSS", "Reactjs", "Redux", "Tailwindcss", "Typescript"];
+const frontend = ["HTML", "CSS", "JavaScript", "Reactjs", "Redux", "Tailwindcss", "Typescript"];
 
 const backend = ["Mongodb", "Express", "Nodejs"];
 

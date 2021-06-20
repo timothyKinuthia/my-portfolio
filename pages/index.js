@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Layout from '../components/layout/Layout';
 import Hero from '../components/hero/Hero'
 import Projects from '../components/projects/Projects';
-import Technology from "../components/tecnologies/Technology";
+import Technology from "../components/technologies/Technology";
 import About from "../components/about/About";
 import Footer from "../components/footer/Footer";
 
