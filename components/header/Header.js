@@ -13,7 +13,7 @@ const Header = ({dimension}) => {
       <nav className="lg:mt-4 w-full md:w-2/3 ">
         <ul
           className={
-            dimension < 760
+            dimension < 720
               ? "flex flex-col space-y-2 text-truegray-300 font-bold cursor-pointer"
               : "-ml-6 text-xl flex justify-around items-center sm:space-x-6 text-truegray-300 font-bold"
           }

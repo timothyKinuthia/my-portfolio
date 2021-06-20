@@ -1,6 +1,6 @@
-const frontend = ["HTML", "CSS", "JavaScript", "Reactjs", "Redux", "Tailwindcss", "Typescript"];
+const frontend = ["HTML", "CSS", "JavaScript", "ReactJS", "Redux", "Tailwindcss", "Typescript"];
 
-const backend = ["Mongodb", "Express", "Nodejs"];
+const backend = ["Mongodb", "MongooseJS", "ExpressJS", "NodeJS"];
 
 const Technology = () => {
   return (
