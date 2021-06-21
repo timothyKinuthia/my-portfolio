@@ -4,7 +4,7 @@ const backend = ["Mongodb", "MongooseJS", "ExpressJS", "NodeJS"];
 
 const Technology = () => {
   return (
-    <div className="mt-20 px-8 flex justify-center" id="tech">
+    <div className="mt-20 px-8 flex justify-center" id="tech" onLost>
       <div className="lg:w-3/4">
         <div className="flex justify-between">
             <div className="w-1/4 h-2 bg-gradient-to-r from-teal-400 via-cyan-600 to-red-700 rounded-full"></div>
